@@ -1,0 +1,724 @@
+* {
+  font-family: "Roboto Flex", sans-serif;
+  font-size: 1rem;
+  color: #2F4F4F;  
+}
+
+p{
+    width: 100%;
+    margin: 0;
+    text-align: justify;
+}
+
+/* IMAGES */
+
+.img {
+    display: inline-block;
+    text-align: center;
+}
+
+/* HEADER */
+
+header {
+    background-image: url("../img/nfl2.jpg");
+    background-size: cover;
+    background-position-y: 60%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px 0px 10px 10px;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.logo {
+    align-self: center;
+    width: 9.375rem;
+    height: 9.29rem;
+}
+
+svg {
+    width: 9.375rem;
+    height: 9.29rem;
+}
+
+header p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.25rem;
+    align-self: flex-end;
+}
+
+.h1 {
+/*color - #fdfdfd*/
+    color: rgb(0, 0, 0);
+    font-family: "Rubik Moonrocks", sans-serif;
+    font-size: 3.125rem;
+    background-color: #CD5C5C;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: none;
+}
+
+.txt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: none;
+}
+
+#phone {
+    display: inline;
+    text-align: center;
+    background-color: #E6E6FA;
+    box-sizing: content-box;
+    cursor: pointer;
+    color: #000;
+    font-size: clamp(0.468rem, 42.66vw, 1rem);
+}
+
+header nav{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    flex-wrap: nowrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav a{
+    flex-grow: 5px;
+    font-family: "Flavors", cursive;
+    font-size: 1.5625rem;
+    text-decoration: none;
+    color: #DAA520;
+    background-color: rgb(70, 130, 180);
+    padding: 0.625rem;
+}
+
+header nav a:active{
+    background-color: #8B0000;
+}
+
+header nav a:hover{
+    color: #B0C4DE;
+}
+
+/* TÍTULOS */
+
+.heading {
+    text-align: center;
+}
+
+h2 {
+    background-color: rgb(173, 216, 230);
+    color: #000;
+    font-family: "Fascinate", system-ui;
+    font-size: 2.1875rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.title {
+    display: inline;
+    background-color: #B0C4DE;
+    font-family: "Londrina Shadow", sans-serif;
+    font-size: 1.875rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* CONTENIDO organizado */
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    width: 90%;
+    margin: 0, auto;
+    font-size: 1rem;
+    padding-top: 10px;
+}
+
+.container-a {
+    padding-left: 5px;
+    width: 49%;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+.container-b {
+    padding-left: 5px;
+    width: 49%;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+/* IMÁGENES */
+
+.img {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.woman {
+    width: 19.688rem;
+    height: 13.75rem;
+}
+
+section small {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 1rem;
+}
+
+/* ENLACES */
+
+.enlaces {
+    background-color: rgb(173, 216, 230);
+    text-align: center;
+    align-items: center;
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px, 0;
+}
+
+.enlaces :first-child {
+    font-family: "Fascinate", system-ui;
+    display: inline;
+    padding: none;
+    font-size: 1.25rem;
+    color: #000;
+}
+
+.nfl {
+    padding-left: 15px;
+    padding-right: 15px;
+    display: inline-block;
+}
+
+.index2 {
+    text-decoration: none;
+    display: inline-block;
+}
+
+.nfl:hover {
+   color: #DAA520;
+}
+
+.index2:hover {
+    background-color: #DAA520;
+    color: #8B0000;
+}
+
+/* ENLACES */
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    background-image: url("../img/nfl2.jpg");
+    background-size: cover;
+    background-position-y: 60%;
+    justify-content: center;
+}
+
+footer nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 0.313rem;
+}
+
+footer nav a {
+    font-family: "Flavors", cursive;
+    font-size: 1.25rem;
+    text-decoration: none;
+    color: #DAA520;
+    padding: 0.625rem;
+}
+
+footer nav a:hover {
+    color: #8B0000;
+}
+
+/* INDEX 2 */
+
+    /* BACKGROUND COLOR */
+    
+.background {
+    background-image: url("../img/tocho3.jpg");
+    background-size: cover;
+    padding-bottom: 1rem;
+}
+
+    /* TABLE */
+
+section ol {
+    text-align: justify;
+    padding-left: 1rem;
+}
+
+.tabla div{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    text-align: center;
+    justify-content: center;
+}
+
+.tabla table{
+    text-align: center;
+    align-items: center;
+}
+
+th {
+    color: #fdfdfd;
+}
+
+.balon {
+    background-color: rgb(154, 205, 50);
+    font-family: "Permanent Marker", cursive;
+    font-size: 1.875rem;
+}
+
+.largo {
+    background-color: #FFC0CB;
+}
+
+.circulo {
+    background-color: #E6E6FA ;
+}
+
+.diametro {
+    background-color: #FFA07A;
+}
+
+.extra {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: space-evenly;
+    gap: 1rem;
+    align-items: center;
+}
+
+.equipos {
+    align-self: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E6E6FA;
+    border-style: dashed;
+    border-color: #008B8B;
+}
+
+dd {
+    color: #008B8B;
+    font-weight: bold;
+}
+
+.imagen {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+figcaption {
+    color: #fdfdfd;
+}
+
+.diana {
+    background-color: #FFFFE0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 23.5rem;
+    height: 17.908rem;
+    border-style: dashed;
+    border-color: #008B8B;
+}
+
+iframe {
+    padding: 0 5px 5px 5px;
+    height: 13.125rem;
+    width: 22.5rem;
+}
+
+.enlaces a:hover {
+    color: white;
+    background-color: #8B0000;
+}
+
+/* CUESTIONARIO */
+
+.form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    width: 100%;
+    margin: 0, auto;
+    font-size: 15px;
+    background-image: url("../img/tocho3.jpg");
+    background-size: cover;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.cuestionario{
+    text-align: justify;
+    display: inline-block;
+    border-style: double;
+    border-color: #4B0082;
+    background-color: #fdfdfd;
+    padding: 5px 5px 5px 5px;
+}
+
+#extra-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.video {
+    padding-left: 5px;
+    text-align: justify;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.audio {
+    padding-left: 5px;
+    text-align: justify;
+    margin-bottom: 10px;
+    display: inline-block;
+    border-style: dotted;
+    border-color: #b04df6;
+}
+
+input {
+    color: #4B0082;
+}
+
+textarea {
+    color: #4B0082;
+}
+
+#select {
+    color: #4B0082;
+}
+
+input [type="submit"]:active {
+    background-color: #8B0000;
+}
+
+/* GALLERY */
+
+.gallery {
+    background-color: #FFB6C1;
+    color: #000;
+    font-family: "Fascinate", system-ui;
+    margin-top: 0.625rem;
+    margin-bottom: 0.625rem;
+    text-align: center;
+    font-size: 1.875rem;
+    width: 100%;
+}
+
+#play {
+    background-image: url("../img/tocho3.jpg");
+    background-size: cover;
+}
+
+.players {
+    width: 68.75rem;
+    margin: 0 auto;
+    padding: 1.25rem;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(15.625rem, 1fr));
+    justify-content: center;
+}
+
+.players article {
+    background-color: #fdfdfd;
+    height: 21.875rem;
+    text-align: center;
+}
+
+.players img{
+    width: 12.563rem;
+    height: 15.688rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.players .h{
+    font-weight: 500;
+    font-size: 1rem;
+    margin-bottom: 0.313rem;
+    color:#4B0082;
+    font-weight: bold;
+    font-family: "Germania One", system-ui;
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+.players p {
+    font-weight: 300;
+    font-size: 1.25rem;
+    color: #000;
+    text-align: center;
+    cursor: pointer;
+}
+
+/* RESPONSIVE DESIGN - Mobile Phones */
+
+@media screen and (max-width: 34.375em) and (min-width: 21.25em) {
+   body {
+    height: 100%;
+   }
+    * {
+        font-size: 6px;
+    }
+        /* TITLES */    
+        .h1 {
+            font-size: 15px;
+        }
+
+        /*.GALLERY DESIGN */
+
+        .players {
+            width: 100.5px;
+            box-sizing: content-box;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 5px;
+            margin: none;
+        }
+
+        .players article {
+            padding-right: 10px;
+            padding-left: 10px;
+            height: 150px;
+        }
+
+    header nav {
+        flex-direction: column;
+        gap: 5px;
+    } 
+
+    section small {
+        padding-left: 32%;
+    }
+
+    section .enlaces {
+        padding: none;
+    }
+
+    footer nav {
+        flex-direction: column; 
+        font-size: 9.375px;
+    }
+
+    /* TABLE FORMAT */
+
+    .extra {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        gap: 0;
+    }
+
+    .imagen {
+        width: 150px;
+    }
+
+    .imagen img {
+        width: 134.13px;
+        height: 93.5px;
+    }
+
+    .diana {
+        width: 300px;
+        height: auto;
+    }
+
+    iframe {
+        width: 250px;
+        height: auto;
+    }
+
+    /* QUESTIONARY PAGE */
+
+    .form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 10px;
+    }
+
+    .cuestionario {
+        width: 95%;
+    }
+}
+
+/*RESPONSIVE DESIGN - iPAD */
+
+@media screen and (max-width: 65.625em) and (min-width: 43.75em) {
+
+    body {
+        height: 100%;
+    }
+
+    * {
+        font-size: 10px;
+    }
+}
+
+/* DARK STYLE */
+
+@media (prefers-color-scheme: dark) {
+
+    .h1 {
+        background-color: #8B0000;
+        color: #FFFFFF;
+    }
+
+    body {
+        background-color: #00008B;
+    }
+
+    * {
+        color: #F0FFFF;
+    }
+
+    h2 {
+        color: #F5F5DC;
+        background-color: #2F4F4F;
+    }
+
+    #phone {
+        color: #E6E6FA;
+        background-color: #6B8E23;
+    }
+
+    .title {
+        background-color: #556B2F;
+    }
+
+    .gallery {
+        background-color: #C71585;
+        color: #FFC0CB;
+    }
+
+    .players article {
+        background-color: #4B0082;
+    }
+
+    .players .h{
+        color:#D8BFD8;
+    }   
+
+    .players p {
+        color: #F5F5F5;
+    }
+
+    .enlaces {
+        background-color: #2F4F4F;
+    }
+
+    .enlaces :first-child {
+        color: #F5F5DC;
+    }
+    
+    header nav a{
+        color: #F0E68C;
+        background-color: #800080;
+    }
+
+    footer nav a {
+        color: #F0E68C;
+    }
+
+    .balon {
+        background-color: #2E8B57;
+    }
+
+    .largo {
+        background-color: #DB7093;
+    }
+
+    .circulo {
+        background-color: #6A5ACD;
+    }
+
+    .diametro {
+        background-color: #FF7F50;
+    }
+
+    .equipos {
+        background-color: #808000;
+    }
+
+    dd {
+        color: #006400;
+    }
+
+    .diana {
+        background-color: #008080;
+    }
+
+    .cuestionario {
+        background-color: #4B0082;
+    }
+}
+
+@media (hover:hover) {
+    header nav a:hover{
+        color: #B0C4DE;
+    }
+
+    .nfl:hover {
+        color: #DAA520;
+    }
+
+    .index2:hover {
+        background-color: #DAA520;
+        color: #8B0000;
+    }
+
+    footer nav a:hover {
+        color: #8B0000;
+    }
+
+    .enlaces a:hover {
+        color: white;
+        background-color: #8B0000;
+    }
+}
